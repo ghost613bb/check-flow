@@ -1,0 +1,42 @@
+{
+    "code": "200",
+    "msg": "操作成功",
+    "data": {
+        "childDepartments": [{
+            "departmentKey": "TECH_DEPT",
+            "departmentName": "技术研发部",
+            "id": "1001",
+            "parentId": "0",
+            "departmentNames": "技术研发部"
+        }, {
+            "departmentKey": "PRODUCT_DEPT",
+            "departmentName": "产品设计部",
+            "id": "1002",
+            "parentId": "0",
+            "departmentNames": "产品设计部"
+        }, {
+            "departmentKey": "MARKET_DEPT",
+            "departmentName": "市场营销部",
+            "id": "1003",
+            "parentId": "0",
+            "departmentNames": "市场营销部"
+        }],
+        "employees": [{
+            "id": "EMP001",
+            "employeeName": "张三",
+            "isLeave": "0",
+            "open": "false"
+        },{
+            "id": "EMP002",
+            "employeeName": "李四",
+            "isLeave": "0",
+            "open": "false"
+        },{
+            "id": "EMP003",
+            "employeeName": "王五",
+            "isLeave": "0",
+            "open": "false"
+        }],
+        "titleDepartments": []
+    }
+}
