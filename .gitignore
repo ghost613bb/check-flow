@@ -26,3 +26,25 @@ coverage
 *.sln
 *.sw?
 package-lock.json
+
+# 构建输出项
+dist/
+build/
+*.zip
+*.tar.gz
+Dockerfile
+nginx.conf
+
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志
+logs
+*.log
+npm-debug.log*
+
+# 编辑器
+.vscode/

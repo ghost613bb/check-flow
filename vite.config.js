@@ -4,7 +4,6 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from "path";
-// https://vitejs.dev/config/
 export default defineConfig(({mode})=>{
   console.log(mode);
   return {
@@ -25,7 +24,7 @@ export default defineConfig(({mode})=>{
           }
       }
     },
-    base: mode === "production" ? '/Workflow-Vue3/dist/' : '/',
+    base: '/',
     plugins: [
       vue(),
       AutoImport({
